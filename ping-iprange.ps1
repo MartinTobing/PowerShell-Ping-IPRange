@@ -1,6 +1,3 @@
-# ------------------------------
-# Only for PS Version 3 or above
-# ------------------------------
 function Ping($ip)
 {
     if (Test-Connection -ipaddres $ip -Count 1 -ErrorAction SilentlyContinue){
